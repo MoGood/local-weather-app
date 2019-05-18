@@ -1,3 +1,14 @@
-<p>
-  current-wather works!
-</p>
+<div>
+   <div>
+     <span>{{current.city}},{{current.country}}
+     </span>
+     <span>{{current.date | date: 'fulldate'}}</span>
+   </div>
+   <div>
+     <img [src]='current.image'/>
+     <span>{{current.temperature}}</span>
+   </div>
+   <div>
+     {{current.description}}
+   </div>
+</div>
