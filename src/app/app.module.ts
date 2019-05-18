@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CurrentWatherComponent } from './current-wather/current-wather.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CurrentWatherComponent
   ],
   imports: [
     BrowserModule,
