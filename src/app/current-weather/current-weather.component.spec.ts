@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CurrentWatherComponent } from './current-wather.component';
+import { CurrentWatherComponent } from './current-weather.component';
 
 describe('CurrentWatherComponent', () => {
   let component: CurrentWatherComponent;
